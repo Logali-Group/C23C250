@@ -1,0 +1,7 @@
+@EndUserText.label: 'Libros'
+define service Zsd_libros {
+  expose zc_libros_log     as Libros;
+  expose zc_clientes_log   as Clientes;
+  expose zc_categorias_log as Categorias;
+  expose zc_clnts_lib_log  as ClientesLibros;
+}
